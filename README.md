@@ -1,6 +1,6 @@
 # TuneJS
 
-**Authors:** Andrew Bernstein & Ben Taylor
+**Authors:** Andrew Bernstein, Ben Taylor, Charlie Roberts
 
 **Overview:** Tune.js is a web audio tuning library of microtonal and just intonation scales. Tune.js supports over 3,000 historical tunings and temperaments, ported from the vast [Scala](http://www.huygens-fokker.org/scala/) tuning archive via the Microtuner files [compiled and documented by Victor Cerullo](http://www.venetica.net/Sites/16tone/mtx_file_specs.htm).
 
@@ -25,10 +25,6 @@
 | slendro | Observed Javanese Slendro scale, Helmholtz/Ellis p. 518, nr.94 |
 | harrison_5 | From Lou Harrison, a pelog style pentatonic |
 | malkauns | Mode of Indian Raga Malkauns, inverse of prime_5 |
-
-![BigP](http://www.mathopenref.com/images/bioimages/pythagoras1.jpg)
-![BigZ](https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Gioseffo_Zarlino.jpg/200px-Gioseffo_Zarlino.jpg)
-![Partch](http://www.pas.org/images/default-source/hall-of-fame-photos/hpartch.jpg?sfvrsn=0)
 
 
 ### How to Tune.js, a Quick Start Guide
@@ -153,6 +149,15 @@ Searches through the scale archive for scales that match the query.
 //returns an array of scale names that contain the word "partch"
 tune.search("partch");
 ```
+
+
+
+
+
+![BigP](http://www.mathopenref.com/images/bioimages/pythagoras1.jpg)
+![BigZ](https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Gioseffo_Zarlino.jpg/200px-Gioseffo_Zarlino.jpg)
+![Partch](http://www.pas.org/images/default-source/hall-of-fame-photos/hpartch.jpg?sfvrsn=0)
+
 
 
 ### License
