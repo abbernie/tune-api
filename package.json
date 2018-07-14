@@ -1,5 +1,5 @@
 {
-  "name": "tune-engine",
+  "name": "tune-api",
   "version": "0.0.1",
   "description": "Manages musical tunings. Part of Tune.JS.",
   "main": "index.js",
