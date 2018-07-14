@@ -86,13 +86,6 @@ tune.mode.output = 'ratio';
 
 The default output mode is 'frequency'. Currently the only available input mode is 'MIDI'.
 
-#### Tune.tonic
-
-The current root frequency of this Tune instance. To set the tonic of a Tune instance use the ```tonicize()``` method. The default tonic is set to 440 Hz.
-
-```js
-var tonic = 200;
-```
 
 #### Tune.scale
 
@@ -101,6 +94,16 @@ Read only. An array containing the ratio values of the current scale loaded with
 ```js
 // Returns the length of the current scale
 var scaleLength = tune.scale.length;
+```
+
+
+#### Tune.root
+
+Sets the scale's root frequency.
+
+```js
+//sets the base (tonic) frequency to 200 Hz
+tune.root = 200;
 ```
 
 
@@ -122,14 +125,6 @@ An optional second argument lets you specify what octave to be played (i.e. -1 f
 
 Additionally, `tune.note()` automatically wraps scale degrees that are out of range, so that `tune.note(8)` in a 7 note scale will return the second scale degree, one octave up. Therefore, given a 7 note scale, `tune.note(8)` is equivalent to `tune.note(1,1)`
 
-#### Tune.tonicize(frequency)
-
-Sets the scale's root frequency.
-
-```js
-//sets the base (tonic) frequency to 200 Hz
-tune.tonicize(200);
-```
 
 #### Tune.chord([array-of-scale-degree-#s])
 
