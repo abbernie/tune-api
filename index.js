@@ -1,6 +1,6 @@
 'use strict';
 
-export default class Tune {
+module.exports = class Tune {
 
   constructor() {
 
